@@ -1,0 +1,19 @@
+{
+  "name": "mern-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anu-Sanodiya/Mern-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anu-Sanodiya/Mern-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Anu-Sanodiya/Mern-Portfolio#readme",
+  "description": ""
+}
