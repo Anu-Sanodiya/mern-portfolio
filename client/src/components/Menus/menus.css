@@ -1,33 +1,45 @@
-.navbar-profile-pic img {
-  border-radius: 90px;
-  height: 150px;
-  width: 150px;
-  display: flex;
-  vertical-align: middle;
-  margin: 0 auto;
-  /* margin-top: 20px; */
+.mobile-nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
-.nav-item {
-  color: white;
-  /* margin-top: 30px; */
-  margin-left: 25px;
+.mobile-nav-header {
+  height: 50px;
+  width: 100%;
+  background-color: #1e1e1e;
+  padding: 8px;
 }
-.nav-link {
-  margin-top: 20px;
+
+.mobile-nav-header .mobile-nav-icon {
+  color: white;
   cursor: pointer;
 }
 
-.nav-link svg {
-  margin-right: 10px;
-}
-.nav-link:hover {
+.mobile-nav-title {
+  margin-left: 20px;
   color: #f29f67;
+  font-weight: bold;
+  text-transform: capitalize;
+  vertical-align: middle;
+  font-size: 20px;
 }
 
-.nav-link .active {
-  color: #f29f67;
-  border-left: 5px solid #f29f67;
-  padding-left: 10px;
-  text-decoration: none;
+.mobile-nav-menu .nav-items {
+  height: auto;
+  width: 200px;
+  background-color: #1e1e1e;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-bottom-right-radius: 10px;
+  color:white;
+  margin-left: 10px;
+}
+
+@media (min-width: 600px) {
+  .mobile-nav {
+    display: none;
+  }
 }
